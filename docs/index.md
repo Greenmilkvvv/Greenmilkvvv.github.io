@@ -1,17 +1,31 @@
-# Welcome to MkDocs
+# Thank U for Visiting My Boring Life.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+这里是我的个人网站 [如何呢? 够无聊的吧.](https://greenmilkvvv.github.io) 
 
-## Commands
+------
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 我的生活
 
-## Project layout
+- 什么都没有
+- 空空如也
+- 但是
+- 我会记住你
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- 如果你需要的话
+- 我想变成天使守护你
+
+------
+
+## 我的冒险
+
+### 学习
+
+- (2022.09 - 2026.07) 华东师范大学
+- (---) 同济大学
+
+### 工作
+
+- (2023年的夏天) 某量化金融平台
+  - 量化实习生
+- (2025.10 - 2026.01) 某卖方机构
+  - 数据分析实习生
