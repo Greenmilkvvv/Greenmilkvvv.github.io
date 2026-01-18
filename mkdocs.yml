@@ -4,6 +4,17 @@ site_url: https://Greenmilkvvv.github.io
 # 启用 Material 主题
 theme:
   name: material
+  palette:
+    # 浅色模式配色
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink # 主色调：控制顶栏、链接等颜色
+      accent: gray # 强调色：控制悬浮、按钮等交互元素颜色[citation:7]
+    # 深色模式配色
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: orange
+      accent: deep orange
 
   # 配置导航菜单
 nav:
