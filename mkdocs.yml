@@ -4,6 +4,7 @@ site_url: https://Greenmilkvvv.github.io
 # 启用 Material 主题
 theme:
   name: material
+
   palette:
     # 浅色模式配色
     - media: "(prefers-color-scheme: light)"
@@ -15,6 +16,15 @@ theme:
       scheme: slate
       primary: orange
       accent: deep orange
+
+  features:
+    - navigation.tabs # 导航栏标签（如果已开启）
+    - navigation.sections # 导航栏分区（如果已开启）
+    # 以下是关键，添加切换器
+    - navigation.top # 将切换按钮放在顶部导航栏
+    - palette.toggle # 颜色调色板切换功能本身
+
+
 
   # 配置导航菜单
 nav:
