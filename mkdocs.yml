@@ -1,28 +1,29 @@
 site_name: greenmilkvvv
 site_url: https://Greenmilkvvv.github.io
 
+
+
 # 启用 Material 主题
 theme:
   name: material
-
   palette:
-    # 浅色模式配色
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: pink # 主色调：控制顶栏、链接等颜色
-      accent: gray # 强调色：控制悬浮、按钮等交互元素颜色[citation:7]
-    # 深色模式配色
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: orange
-      accent: deep orange
-
+    # 浅色模式：使用“默认”方案搭配粉色
+    - scheme: default
+      primary: blue grey
+      accent: blue grey
+      toggle: # 这部分是给切换按钮定义图标和提示文字，可选
+        icon: material/brightness-4
+        name: Switch to dark mode
+    # 深色模式：使用“石板”方案搭配更深的粉色
+    - scheme: slate
+      primary: blue grey
+      accent: blue grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
   features:
-    - navigation.tabs # 导航栏标签（如果已开启）
-    - navigation.sections # 导航栏分区（如果已开启）
-    # 以下是关键，添加切换器
-    - navigation.top # 将切换按钮放在顶部导航栏
-    - palette.toggle # 颜色调色板切换功能本身
+    - navigation.top
+    - palette.toggle
 
 
 
