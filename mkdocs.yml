@@ -1,0 +1,13 @@
+site_name: greenmilkvvv
+site_url: https://Greenmilkvvv.github.io
+
+# 启用 Material 主题
+theme:
+  name: material
+
+  # 配置导航菜单
+nav:
+  - 首页: index.md
+  # - 关于我: about.md
+  # - 博客:
+  #     - 第一篇博客: blog/post1.md
