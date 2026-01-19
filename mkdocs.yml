@@ -4,11 +4,17 @@ site_url: https://Greenmilkvvv.github.io
 
   # 配置导航菜单
 nav:
-  - 首页: index.md
-  # - 关于我: about.md
-  # - 博客:
-  #     - 第一篇博客: blog/post1.md
-
+  - 我: 
+    - index.md
+    - 我的生活: mulife.md
+  - 博客: 
+    - Blogs/index.md
+    - 冷战: 
+      - 南越·中央情报办公室: Blogs/CIO_SouthVietnam.md
+  - 项目: 
+    - Projects/index.md
+  - 随笔: 
+    - Essays/index.md
 
 # 启用 Material 主题
 theme:
