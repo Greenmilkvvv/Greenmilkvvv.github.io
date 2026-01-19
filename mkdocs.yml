@@ -17,10 +17,12 @@ nav:
     - Essays/index.md
     - 日记: 
       - 2026.01.19: Essays/Diaries/26_01_19_night.md
+  - 转载: 
+    - Reproduce/index.md
   - 爱: 
     - Love/index.md
     - 忘记:
-      - 2026.01.19: Love/forget/260119_1.md
+      - 2026.01.19: Love/Forget/20260119_1.md
 
 # 启用 Material 主题
 theme:
