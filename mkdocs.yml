@@ -74,3 +74,21 @@ repo_url: https://github.com/Greenmilkvvv/Greenmilkvvv.github.io
 repo_name: Greenmilkvvv.github.io
 
 
+extra:
+  # [添加社交网络图标和链接]
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
+  # 搜索图标：https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
+  # name 会在鼠标悬浮时提示
+  social: # icons
+    - name: GitHub | Greenmilkvvv
+      icon: fontawesome/brands/github
+      link: https://github.com/Greenmilkvvv
+    - name: Kaggle | greenmilkvvv
+      icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/greenmilkvvv
+    - name: 小红书 | 桂花酒酿芝麻大元宵
+      icon: simple/xiaohongshu
+      link: https://www.xiaohongshu.com/user/profile/621b6d89000000001000cc67
+
+
+      
