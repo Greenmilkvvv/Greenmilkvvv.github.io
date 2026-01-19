@@ -6,7 +6,7 @@ site_url: https://Greenmilkvvv.github.io
 nav:
   - 我: 
     - MyLife/index.md
-    - 我的生活: MyLife/mylife.md
+    - 我的简述: MyLife/mylife.md
   - 博客: 
     - Blogs/index.md
     - 冷战: 
