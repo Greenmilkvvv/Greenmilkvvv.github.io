@@ -15,6 +15,8 @@ nav:
     - Projects/index.md
   - 随笔: 
     - Essays/index.md
+    - 日记: 
+      - 2026.01.19: Essays/Diaries/26_01_19_night.md
 
 # 启用 Material 主题
 theme:
