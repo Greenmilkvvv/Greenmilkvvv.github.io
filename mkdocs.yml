@@ -17,20 +17,24 @@ nav:
     - Essays/index.md
     - 日记: 
       - 2026.01.19: Essays/Diaries/26_01_19_night.md
+  - 爱: 
+    - Love/index.md
+    - 忘记:
+      - 2026.01.19: Love/forget/260119_1.md
 
 # 启用 Material 主题
 theme:
   name: material
 
   palette:
-    # 浅色模式：使用“默认”方案搭配粉色
+    # 浅色模式：    
     - scheme: default
       primary: blue grey
       accent: blue grey
       toggle: # 这部分是给切换按钮定义图标和提示文字，可选
         icon: material/brightness-4
         name: Switch to dark mode
-    # 深色模式：使用“石板”方案搭配更深的粉色
+    # 深色模式：
     - scheme: slate
       primary: blue grey
       accent: blue grey
