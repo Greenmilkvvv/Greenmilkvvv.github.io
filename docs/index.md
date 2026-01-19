@@ -10,7 +10,7 @@
 - 空空如也
 - 但是
 - 我会记住你
-
+  <br><br>
 - 如果你需要的话
 - 我想变成天使守护你
 
@@ -29,4 +29,29 @@
     - 量化实习生
 
 - (2025.10 - 2026.01) 某卖方机构
-    - 数据分析实习生
+    - [固收数据分析实习生](https://github.com/Greenmilkvvv/25WinterIntern.git)
+
+------
+
+## 我的兴趣
+
+### 研究
+
+- 概率与统计
+- 数据科学
+- 理论机器学习
+- 量化金融
+
+### 生活
+
+- 阅读
+- 咖啡 & 酒
+- 电影 & 追剧
+- 冷战史研究
+
+#### 喜欢的作家
+
+- [菲茨杰拉德 / F. Scott Fitzgerald](https://fscottfitzgeraldsociety.org/)
+- [村上春树 / Haruki Murakami](https://harukimurakami.com/author/)
+- [约翰·勒卡雷 / John Le Carré](https://johnlecarre.com/biography/john-le-carre/)
+- [弗·福赛斯 / Frederick Forsyth](https://www.freddieforsyth.com/)
