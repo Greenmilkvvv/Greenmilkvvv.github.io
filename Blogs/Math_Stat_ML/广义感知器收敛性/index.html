@@ -557,6 +557,8 @@
       
         
       
+        
+      
     
     
     
@@ -785,6 +787,98 @@
     
   
     南越·中央情报办公室
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MKdocs
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MKdocs
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MKDocs/formula_align/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    跨行公式对齐问题
   
 
     
@@ -1403,27 +1497,25 @@
 <p><strong>证明</strong>: </p>
 <p><span class="arithmatex">\(\omega_0,~k,~t\)</span> 均为0, 若 $ \hat{y}^{(n)} \neq y^{(n)} $ , 那么 $ \omega_{k+1} = \omega_{k} + \left[ \phi(x^{(n)} , y^{(n)} ) - \phi ( x^{(n)} , y) \right] . $</p>
 <ul>
-<li>
-<p><strong>上界</strong>: 
-$$
-\begin{aligned} 
-| \omega_k |^2 =&amp; | \omega_{k-1} + \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) |^2 \
-=&amp; | \omega_{k-1} |^2 + | \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) |^2 \ &amp;+ 2 \omega^\top_{k-1} \left[ \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) \right] \
-\leq &amp; | \omega_{k-1} |^2 +  R^2 \leq | \omega_{k-2} |^2 + 2 R^2 \ \leq &amp; \dots \leq | \omega_0 |^2 + K R^2 = 0+ K R^2 = K R^2 
-\end{aligned}
-$$</p>
-</li>
-<li>
-<p><strong>下界</strong>: 我们使用一个 <span class="arithmatex">\(\omega^*\)</span> 作为单位方向向量, <span class="arithmatex">\(\| \omega^* \| = 1\)</span> , 所以
-$$
-\begin{aligned} 
-| \omega_k |^2 =&amp; | \omega^<em> |^2 \cdot | \omega_k |^2 \geq | \omega^{</em>\top} \omega_{k} |^2 \ 
-=&amp; \left| \omega^{<em>\top} \cdot \sum^{K}<em k="1">{k=1} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \right|^2  \ 
-=&amp; \left| \sum^{K}</em> \omega^{</em>\top} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \right|^2 .<br />
-\end{aligned}
-$$</p>
-</li>
+<li><strong>上界</strong>: </li>
 </ul>
+<div class="arithmatex">\[
+\begin{aligned} 
+\| \omega_k \|^2 =&amp; \| \omega_{k-1} + \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) \|^2 \\
+=&amp; \| \omega_{k-1} \|^2 + \| \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) \|^2 \\ &amp;+ 2 \omega^\top_{k-1} \left[ \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) \right] \\
+\leq &amp; \| \omega_{k-1} \|^2 +  R^2 \leq \| \omega_{k-2} \|^2 + 2 R^2 \\ \leq &amp; \dots \leq \| \omega_0 \|^2 + K R^2 = 0+ K R^2 = K R^2 
+\end{aligned}
+\]</div>
+<ul>
+<li><strong>下界</strong>: 我们使用一个 <span class="arithmatex">\(\omega^*\)</span> 作为单位方向向量, <span class="arithmatex">\(\| \omega^* \| = 1\)</span> , 所以</li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned} 
+\| \omega_k \|^2 =&amp; \| \omega^* \|^2 \cdot \| \omega_k \|^2 \geq \| \omega^{*\top} \omega_{k} \|^2 \\ 
+=&amp; \left\| \omega^{*\top} \cdot \sum^{K}_{k=1} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \right\|^2  \\ 
+=&amp; \left\| \sum^{K}_{k=1} \omega^{*\top} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \right\|^2 .  
+\end{aligned}
+\]</div>
 <p>由于
 $$
 \omega^{*\top} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \geq \gamma , 
