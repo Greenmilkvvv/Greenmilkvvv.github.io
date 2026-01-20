@@ -17,7 +17,7 @@
 
 Dear heart
 
-Wish you were here to warm this night
+**Wish you were here to warm this night**
 
 My dear heart
 
@@ -31,9 +31,9 @@ But soon I'll kiss you hello at our front door
 
 And dear heart
 
-I want you to know
+**I want you to know**
 
-I'll leave your arms never more
+**I'll leave your arms never more**
 
 But soon I'll kiss you hello at our front door
 
@@ -41,4 +41,4 @@ And dear heart
 
 I want you to know
 
-I'll leave your arms never more
+**I'll leave your arms never more**
