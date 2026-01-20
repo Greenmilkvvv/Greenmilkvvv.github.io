@@ -14,8 +14,8 @@ nav:
       - 广义感知机收敛性: Blogs/Math_Stat_ML/广义感知器收敛性.md
     - 冷战: 
       - 南越·中央情报办公室: Blogs/Cold_War/CIO_SouthVietnam.md
-    # - MKdocs: 
-    #   - 跨行公式对齐问题: Blogs\MKDocs\formula_align.md
+    - MKdocs: 
+      - 跨行公式对齐问题: Blogs\MKDocs\formula_align.md
   - 项目: 
     - Projects/index.md
     - CAPM模型在中国的有效性检验: Projects\CAPM_2025Aut\CAPM_test_A_share.md
