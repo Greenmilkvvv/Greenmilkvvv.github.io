@@ -11,11 +11,15 @@ nav:
   - 博客: 
     - Blogs/index.md
     - 数学: 
-      - 广义感知机收敛性: Blogs/Math_Stat_ML/广义感知器收敛性.md
+      - 广义感知器的收敛性: Blogs/Math_Stat_ML/广义感知器收敛性.md
+    - MKdocs: 
+      - KaTeX 跨行公式对齐问题: Blogs\MKDocs\formula_align.md
     - 冷战: 
       - 南越·中央情报办公室: Blogs/Cold_War/CIO_SouthVietnam.md
-    - MKdocs: 
-      - 跨行公式对齐问题: Blogs\MKDocs\formula_align.md
+    - 书:
+      - 战争猛犬 / The Dogs of War: Blogs\Books\The Dogs of War (Foysyth).md
+
+
   - 项目: 
     - Projects/index.md
     - CAPM模型在中国的有效性检验: Projects\CAPM_2025Aut\CAPM_test_A_share.md
@@ -26,6 +30,13 @@ nav:
       - 2026.01.20: Essays/Diaries/26_01_20.md
   - 转载: 
     - Reproduce/index.md
+    - 歌词: 
+      - Reproduce\Lyrics\Dear Heart.md
+      - Reproduce\Lyrics\Eden (feat. 072).md
+      - Reproduce\Lyrics\地球ぎ (地球仪).md
+      - Reproduce\Lyrics\DOUBLE.md
+      - Reproduce\Lyrics\不得.md
+      
   - 爱: 
     - Love/index.md
     - 忘记:

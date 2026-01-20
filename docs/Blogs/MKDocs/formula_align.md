@@ -1,4 +1,4 @@
-# MKdocs KaTeX 跨行公式对齐
+# KaTeX 跨行公式对齐
 
 本人使用 [KaTeX](https://katex.org/) 来支持 [mkdocs-material 对公式的渲染时](https://squidfunk.github.io/mkdocs-material/reference/math/#katex), 发现跨行公式很难对齐. 经过一番 debug, 同时查阅其他使用者 github repo 中的编写方式, 总结出了一些妥协规则. 
 
