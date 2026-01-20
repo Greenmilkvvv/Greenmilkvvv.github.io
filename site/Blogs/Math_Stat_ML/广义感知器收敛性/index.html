@@ -25,7 +25,7 @@
     
     
       
-        <title>广义感知机收敛性 - greenmilkvvv</title>
+        <title>广义感知机收敛性 - 杉岛明菜</title>
       
     
     
@@ -96,7 +96,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="../../.." title="greenmilkvvv" class="md-header__button md-logo" aria-label="greenmilkvvv" data-md-component="logo">
+    <a href="../../.." title="杉岛明菜" class="md-header__button md-logo" aria-label="杉岛明菜" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -110,7 +110,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            greenmilkvvv
+            杉岛明菜
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -379,13 +379,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="greenmilkvvv" class="md-nav__button md-logo" aria-label="greenmilkvvv" data-md-component="logo">
+    <a href="../../.." title="杉岛明菜" class="md-nav__button md-logo" aria-label="杉岛明菜" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    greenmilkvvv
+    杉岛明菜
   </label>
   
     <div class="md-nav__source">
@@ -1366,29 +1366,27 @@
 <p><strong>证明</strong>: </p>
 <p><span class="arithmatex">\(\omega_0,~k,~t\)</span> 均为0, 若 $ \hat{y}^{(n)} \neq y^{(n)} $ , 那么 $ \omega_{k+1} = \omega_{k} + \left[ \phi(x^{(n)} , y^{(n)} ) - \phi ( x^{(n)} , y) \right] . $</p>
 <ul>
-<li>
-<p><strong>上界</strong>: 
-\begin{equation}
-\begin{align<em>}
-| \omega_k |^2 =&amp; | \omega_{k-1} + \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) |^2 \
-=&amp; | \omega_{k-1} |^2 + | \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) |^2 \
-&amp;+ 2 \omega^\top_{k-1} \left[ \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) \right] \
-\leq &amp; | \omega_{k-1} |^2 +  R^2 \leq | \omega_{k-2} |^2 + 2 R^2 \
-\leq &amp; \dots \leq | \omega_0 |^2 + K R^2 = 0+ K R^2 = K R^2
-\end{align</em>}
-\end{equation}</p>
-</li>
-<li>
-<p><strong>下界</strong>: 
-我们使用一个 <span class="arithmatex">\(\omega^*\)</span> 作为单位方向向量, <span class="arithmatex">\(\| \omega^* = 1 \|\)</span> , 所以
-$$
-\begin{align}
-| \omega_k |^2 =&amp; | \omega^<em> |^2 \cdot | \omega_k |^2 \geq | \omega^{</em>\top} \omega_{k} |^2 \
-=&amp; \left| \omega^{<em>\top} \cdot \sum^{K}<em k="1">{k=1} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \right|^2  \
-=&amp; \left| \sum^{K}</em> \omega^{</em>\top} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \right|^2 . 
-\end{align}
-$$
-由于
+<li><strong>上界</strong>: </li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned} 
+\| \omega_k \|^2 =&amp; \| \omega_{k-1} + \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) \|^2 \\
+=&amp; \| \omega_{k-1} \|^2 + \| \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) \|^2 \\ &amp;+ 2 \omega^\top_{k-1} \left[ \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) \right] \\
+\leq &amp; \| \omega_{k-1} \|^2 +  R^2 \leq \| \omega_{k-2} \|^2 + 2 R^2 \\ \leq &amp; \dots \leq \| \omega_0 \|^2 + K R^2 = 0+ K R^2 = K R^2 
+\end{aligned}
+\]</div>
+<ul>
+<li><strong>下界</strong>: 
+我们使用一个 <span class="arithmatex">\(\omega^*\)</span> 作为单位方向向量, <span class="arithmatex">\(\| \omega^* = 1 \|\)</span> , 所以</li>
+</ul>
+<div class="arithmatex">\[
+\begin{aligned} 
+\| \omega_k \|^2 =&amp; \| \omega^* \|^2 \cdot \| \omega_k \|^2 \geq \| \omega^{*\top} \omega_{k} \|^2 \\ 
+=&amp; \left\| \omega^{*\top} \cdot \sum^{K}_{k=1} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \right\|^2  \\ 
+=&amp; \left\| \sum^{K}_{k=1} \omega^{*\top} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \right\|^2 .  
+\end{aligned}
+\]</div>
+<p>由于
 $$
 \omega^{*\top} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \geq \gamma , 
 $$
@@ -1396,8 +1394,6 @@ $$
 $$
 | \omega_k |^2 \geq ( k \gamma )^2 . 
 $$</p>
-</li>
-</ul>
 <p>综上, 
 $$
 K R^2  \geq | \omega_k |^2 \geq (k \gamma)^2
