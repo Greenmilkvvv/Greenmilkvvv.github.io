@@ -1403,26 +1403,27 @@
 <p><strong>证明</strong>: </p>
 <p><span class="arithmatex">\(\omega_0,~k,~t\)</span> 均为0, 若 $ \hat{y}^{(n)} \neq y^{(n)} $ , 那么 $ \omega_{k+1} = \omega_{k} + \left[ \phi(x^{(n)} , y^{(n)} ) - \phi ( x^{(n)} , y) \right] . $</p>
 <ul>
-<li><strong>上界</strong>: </li>
-</ul>
-<div class="arithmatex">\[
+<li>
+<p><strong>上界</strong>: 
+$$
 \begin{aligned} 
-\| \omega_k \|^2 =&amp; \| \omega_{k-1} + \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) \|^2 \\
-=&amp; \| \omega_{k-1} \|^2 + \| \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) \|^2 \\ &amp;+ 2 \omega^\top_{k-1} \left[ \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) \right] \\
-\leq &amp; \| \omega_{k-1} \|^2 +  R^2 \leq \| \omega_{k-2} \|^2 + 2 R^2 \\ \leq &amp; \dots \leq \| \omega_0 \|^2 + K R^2 = 0+ K R^2 = K R^2 
+| \omega_k |^2 =&amp; | \omega_{k-1} + \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) |^2 \
+=&amp; | \omega_{k-1} |^2 + | \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) |^2 \ &amp;+ 2 \omega^\top_{k-1} \left[ \phi ( x^{(n)}, y^{(n)} ) - \phi (x^{(n)} , y) \right] \
+\leq &amp; | \omega_{k-1} |^2 +  R^2 \leq | \omega_{k-2} |^2 + 2 R^2 \ \leq &amp; \dots \leq | \omega_0 |^2 + K R^2 = 0+ K R^2 = K R^2 
 \end{aligned}
-\]</div>
-<ul>
-<li><strong>下界</strong>: 
-我们使用一个 <span class="arithmatex">\(\omega^*\)</span> 作为单位方向向量, <span class="arithmatex">\(\| \omega^* = 1 \|\)</span> , 所以</li>
-</ul>
-<div class="arithmatex">\[
+$$</p>
+</li>
+<li>
+<p><strong>下界</strong>: 我们使用一个 <span class="arithmatex">\(\omega^*\)</span> 作为单位方向向量, <span class="arithmatex">\(\| \omega^* \| = 1\)</span> , 所以
+$$
 \begin{aligned} 
-\| \omega_k \|^2 =&amp; \| \omega^* \|^2 \cdot \| \omega_k \|^2 \geq \| \omega^{*\top} \omega_{k} \|^2 \\ 
-=&amp; \left\| \omega^{*\top} \cdot \sum^{K}_{k=1} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \right\|^2  \\ 
-=&amp; \left\| \sum^{K}_{k=1} \omega^{*\top} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \right\|^2 .  
+| \omega_k |^2 =&amp; | \omega^<em> |^2 \cdot | \omega_k |^2 \geq | \omega^{</em>\top} \omega_{k} |^2 \ 
+=&amp; \left| \omega^{<em>\top} \cdot \sum^{K}<em k="1">{k=1} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \right|^2  \ 
+=&amp; \left| \sum^{K}</em> \omega^{</em>\top} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \right|^2 .<br />
 \end{aligned}
-\]</div>
+$$</p>
+</li>
+</ul>
 <p>由于
 $$
 \omega^{*\top} \left[ \phi(x^{(n)}, y^{(n)}) - \phi(x^{(n)},y) \right] \geq \gamma , 
