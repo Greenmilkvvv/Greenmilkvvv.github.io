@@ -35,18 +35,25 @@ nav:
 theme:
   name: material
 
+  icon: 
+    logo: material/heart
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+
+  favicon: material/heart
+
   palette:
     # 浅色模式：    
     - scheme: default
-      primary: blue grey
-      accent: blue grey
+      primary: custom # blue grey
+      accent: pink # blue grey
       toggle: # 这部分是给切换按钮定义图标和提示文字，可选
         icon: material/brightness-4
         name: Switch to dark mode
     # 深色模式：
     - scheme: slate
-      primary: blue grey
-      accent: blue grey
+      primary: custom # blue grey
+      accent: pink # blue grey
       toggle:
         icon: material/brightness-7
         name: Switch to light mode
@@ -165,5 +172,10 @@ extra_css:
   - mkdocs/css/no-footer.css
   # 无序列表符号自定义
   - mkdocs/css/unordered-list-symbols.css
+
+  # 自定义颜色样式风格
+  - stylesheets/extra.css
+
+
 
 
