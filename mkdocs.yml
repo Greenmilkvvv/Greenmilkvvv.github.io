@@ -1,4 +1,4 @@
-site_name: greenmilkvvv
+site_name: 杉岛明菜
 site_url: https://Greenmilkvvv.github.io
 
 
@@ -10,14 +10,19 @@ nav:
     - 你会记住我吗?: MyLife/name.md
   - 博客: 
     - Blogs/index.md
+    - 数学: 
+      - 广义感知机收敛性: Blogs/Math_Stat_ML/广义感知器收敛性.md
     - 冷战: 
       - 南越·中央情报办公室: Blogs/Cold_War/CIO_SouthVietnam.md
+    # - MKdocs: 
+    #   - 跨行公式对齐问题: Blogs\MKDocs\formula_align.md
   - 项目: 
     - Projects/index.md
   - 随笔: 
     - Essays/index.md
     - 日记: 
       - 2026.01.19: Essays/Diaries/26_01_19_night.md
+      - 2026.01.20: Essays/Diaries/26_01_20.md
   - 转载: 
     - Reproduce/index.md
   - 爱: 
@@ -106,4 +111,58 @@ extra:
       link: https://www.xiaohongshu.com/user/profile/621b6d89000000001000cc67
 
 
-      
+markdown_extensions:
+  # [数学公式支持]
+  # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
+  - pymdownx.arithmatex:
+      generic: true
+  # [图片功能支持]
+  # https://squidfunk.github.io/mkdocs-material/reference/images/
+  # 给 Markdown 图片语法后面添加 `{width="300"}` 设置大小
+  - attr_list
+  - md_in_html
+  # [给标题添加链接]
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#+toc.permalink
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  # [代码语法高亮]
+  # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-blocks
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
+  - pymdownx.highlight:
+      # 显示行号
+      linenums: true
+      # 显示编程语言名称
+      auto_title: true
+      # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#+pymdownx.highlight.line_spans
+      line_spans: __span
+      # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#+pymdownx.highlight.pygments_lang_class
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  # [Markdown 提示]
+  # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+  - admonition
+  - pymdownx.details
+  # [Markdown footnote 语法支持]
+  # https://squidfunk.github.io/mkdocs-material/reference/footnotes/
+  - footnotes
+
+
+extra_javascript:
+  # [数学公式支持]
+  # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+extra_css:
+  # [数学公式支持]
+  # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  # [自定义 css]
+  # 不使用底部的翻页
+  - mkdocs/css/no-footer.css
+  # 无序列表符号自定义
+  - mkdocs/css/unordered-list-symbols.css
+
+
