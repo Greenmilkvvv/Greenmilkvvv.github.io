@@ -9,9 +9,9 @@ GitHub repo: [Greenmilkvvv/CAPM-A-Share-Empirical](https://github.com/Greenmilkv
 ------
 
  **本文参考**: 
- - Sharpe W F. Capital asset prices: A theory of market equilibrium under conditions of risk[J]. The journal of finance, 1964, 19(3): 425-442.
- - Black F, Jensen M C, Scholes M. The capital asset pricing model: Some empirical tests[J]. 1972.
- - Fama E F, MacBeth J D. Risk, return, and equilibrium: Empirical tests[J]. Journal of political economy, 1973, 81(3): 607-636.
+- Sharpe W F. Capital asset prices: A theory of market equilibrium under conditions of risk[J]. The journal of finance, 1964, 19(3): 425-442.
+- Black F, Jensen M C, Scholes M. The capital asset pricing model: Some empirical tests[J]. 1972.
+- Fama E F, MacBeth J D. Risk, return, and equilibrium: Empirical tests[J]. Journal of political economy, 1973, 81(3): 607-636.
 
 ## 实证检验方法
 
