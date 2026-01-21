@@ -12,6 +12,7 @@ nav:
     - Blogs/index.md
     - 数学: 
       - 广义感知器的收敛性: Blogs/Math_Stat_ML/广义感知器收敛性.md
+      - 二次变分——背景, 定义和性质: Blogs\Math_Stat_ML\quadratic_variation.md
     - MKdocs: 
       - KaTeX 跨行公式对齐问题: Blogs\MKDocs\formula_align.md
     - 冷战: 
@@ -28,6 +29,7 @@ nav:
     - 日记: 
       - 2026.01.19: Essays/Diaries/26_01_19_night.md
       - 2026.01.20: Essays/Diaries/26_01_20.md
+      - 2026.01.21: Essays/Diaries/26_01_21.md
   - 转载: 
     - Reproduce/index.md
     - 歌词: 
