@@ -1,6 +1,6 @@
 # Katanga 1960-63: Mercenaries, spies, and the African nation that waged war on the world
 
-author: *Christopher Othen*
+**author**: Christopher Othen
 
 ------
 

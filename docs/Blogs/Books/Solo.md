@@ -1,6 +1,6 @@
 # Solo
 
-author: *William Boyd*
+**author**: William Boyd
 
 ------
 
