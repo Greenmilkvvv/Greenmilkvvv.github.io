@@ -13,13 +13,16 @@ nav:
     - 数学: 
       - 广义感知器的收敛性: Blogs/Math_Stat_ML/广义感知器收敛性.md
       - 二次变分——背景, 定义和性质: Blogs\Math_Stat_ML\quadratic_variation.md
-    - MKdocs: 
-      - KaTeX 跨行公式对齐问题: Blogs\MKDocs\formula_align.md
     - 冷战: 
       - 南越·中央情报办公室: Blogs/Cold_War/CIO_SouthVietnam.md
     - 书:
       - 战争猛犬 / The Dogs of War: Blogs\Books\The Dogs of War (Foysyth).md
       - 球形の荒野: Blogs\Books\球形の荒野.md
+    - MKdocs: 
+      - KaTeX 跨行公式对齐问题: Blogs\MKDocs\formula_align.md
+    - 车: 
+      - 驾驶: 
+        - Blogs\Cars\Skills\科目二 侧方停车.md
 
 
   - 项目: 
@@ -32,6 +35,7 @@ nav:
       - 2026.01.20: Essays/Diaries/26_01_20.md
       - 2026.01.21: Essays/Diaries/26_01_21.md
       - 2026.01.26: Essays/Diaries/26_01_26.md
+      - 2026.01.28: Essays/Diaries/26_01_28.md
     - 吃: 
       - 牛肉河粉 & 素春卷 (西贡妈妈): Essays\Eating\西贡妈妈_26_01_01.md
       - 小甜品: 
