@@ -1,9 +1,15 @@
-name: publish site
+name: publish-site
 # 触发条件
 on:
   push:
     branches:
       - main
+
+
+# 添加权限配置（关键修复）
+permissions:
+  contents: write
+
 # workflow 的具体内容
 jobs:
   deploy:
@@ -15,8 +21,13 @@ jobs:
       # 再安装 Python 和相关环境
       - uses: actions/setup-python@v4
         with:
-          python-version: 3.x
-      # 使用包管理工具 pip 安装 mkdocs-material
-      - run: pip install mkdocs-material
-      # 使用 mkdocs-material 构建网站并部署到 gh-pages 分支
-      - run: mkdocs gh-deploy --force
+          python-version: "3.x"
+      # 安装依赖
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material
+      # 推送给 gh pages
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 自动生成的 Token
