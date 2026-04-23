@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # 先打开 main 分支
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4 
       # 再安装 Python 和相关环境
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.x
       # 使用包管理工具 pip 安装 mkdocs-material
